@@ -24,6 +24,11 @@ a {
     text-decoration: none;
 }
 
+p{
+    font-size: 16px;
+    color: #6C6C6F;
+}
+
 /* レイアウト
 ---------------------------------*/
 
@@ -37,6 +42,23 @@ a {
 .l-bg-blue{
     background-color: #123D88;
 }
+
+/* flexbox */
+.l-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-col2{
+    width: 46%;
+}
+
+.l-col3{
+    width: 30%;
+}
+
 
 /* header */
 .l-header{
@@ -54,7 +76,46 @@ a {
 /* module
 ---------------------------------*/
 /* unit */
+.unit-catch{
+    font-size: 14px;
+    color: #256BE6;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.unit-title{
+    font-size: 36px;
+    color: #262934;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    font-weight:bold;
+}
 
 /* card */
+.card-icon{
+    margin-bottom: 40px;
+}
 
-/* button ßß*/
+.card-title{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.27;
+    color: #2F2F35;
+}
+
+/* button */
+.btn{
+    display: block;
+    padding: 20px;
+    border-radius: 27.5px;
+    letter-spacing: 0.025em;
+    background-color: #256BE6;
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    color: #fff;
+    text-align:center;
+    margin-top: 60px;
+}
