@@ -34,11 +34,22 @@ a {
     margin-right: auto;
 }
 
+.l-bg-blue{
+    background-color: #123D88;
+}
+
 /* header */
-.l-header{}
+.l-header{
+    padding: 30px 0 ;
+}
 
 /*footer*/
-.l-footer{}
+.l-footer{
+    padding: 32px 0;
+    font-size: 15px;
+    color: #fff;
+    text-align: right;
+}
 
 /* module
 ---------------------------------*/
@@ -46,4 +57,4 @@ a {
 
 /* card */
 
-/*button*/
+/* button ßß*/
