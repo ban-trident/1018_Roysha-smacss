@@ -26,7 +26,6 @@ a {
 
 p{
     font-size: 16px;
-    color: #6C6C6F;
 }
 
 /* レイアウト
@@ -39,10 +38,6 @@ p{
     margin-right: auto;
 }
 
-.l-tc{
-    text-align: center;
-}
-
 .l-py8{
     padding: 80px 0;
 }
@@ -51,12 +46,54 @@ p{
     margin-bottom: 70px;
 }
 
+.l-mb4{
+    margin-bottom: 40px;
+}
+
+.l-p6{
+    padding: 60px;
+}
+
+.l-p4{
+    margin: 40px 0;
+}
+
+.l-max-width{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*color*/
+
 .l-bg-blue{
+    color: #fff;
     background-color: #123D88;
 }
 
 .l-bg-sky{
     background-color: #F7FAFF;
+}
+
+.l-bg-gray{
+    color: #fff;
+    background-color: #505050;
+}
+
+.l-bg-gray .unit-title,
+.l-bg-blue .unit-title{
+    color: #fff;
+}
+
+/*text*/
+.l-text-center{
+    text-align: center;
+}
+
+.l-text-center .btn,
+.l-text-center .card-icon{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* flexbox */
@@ -121,6 +158,15 @@ p{
     color: #2F2F35;
 }
 
+.card-space{
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.card .btn{
+    margin-top: 40px;
+}
+
 /* button */
 .btn{
     display: block;
@@ -134,4 +180,13 @@ p{
     color: #fff;
     text-align:center;
     margin-top: 60px;
+}
+
+.btn-outline{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.btn-green{
+    background-color: #2DBE61;
 }
