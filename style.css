@@ -104,6 +104,10 @@ p{
     align-items: center;
 }
 
+.l-align-stretch{
+    align-items: stretch;
+}
+
 .l-col2{
     width: 46%;
 }
@@ -165,6 +169,11 @@ p{
 
 .card .btn{
     margin-top: 40px;
+}
+
+.card-outline{
+    border: 1px solid #6C6C6F;
+    padding: 40px;
 }
 
 /* button */
